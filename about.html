@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="About Aliyah Merit-Gold — Software Engineer, Data Scientist & Business Growth Analyst. Learn about my story, skills, values, and process." />
+  <title>About Me | Aliyah Merit-Gold</title>
+
+  <!-- Same fonts & icons as homepage -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <script src="https://unpkg.com/@phosphor-icons/web@2.1.1/src/index.js" defer></script>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="about.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION — identical to homepage
+  ============================================================ -->
+  <header class="navbar" id="navbar" role="banner">
+    <nav class="nav-container" aria-label="Main navigation">
+      <a href="index.html" class="nav-brand" aria-label="Aliyah Merit-Gold home">
+        <div class="nav-logo" aria-hidden="true">AM</div>
+        <div class="nav-brand-text">
+          <span class="nav-name">Aliyah Merit-Gold</span>
+          <span class="nav-subtitle">MeritGold Sales</span>
+        </div>
+      </a>
+
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="index.html"              class="nav-link">Home</a></li>
+        <li><a href="about.html"              class="nav-link active">About</a></li>
+        <li><a href="index.html#services"     class="nav-link">Services</a></li>
+        <li><a href="portfolio.html"          class="nav-link">Projects</a></li>
+        <li><a href="testimonials.html"       class="nav-link">Testimonials</a></li>
+        <li><a href="index.html#contact"      class="nav-link">Contact</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-links">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </nav>
+  </header>
+  <div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div>
+
+  <main>
+
+    <!-- ============================================================
+         ABOUT HERO
+    ============================================================ -->
+    <section class="about-hero" aria-label="About page hero">
+      <div class="about-hero__deco about-hero__deco--ring"     aria-hidden="true"></div>
+      <div class="about-hero__deco about-hero__deco--dots"     aria-hidden="true"></div>
+      <div class="about-hero__deco about-hero__deco--glow"     aria-hidden="true"></div>
+
+      <div class="about-hero__container">
+        <span class="section-eyebrow" data-about-animate>About Me</span>
+        <h1 class="about-hero__heading" data-about-animate>
+          Meet <span class="about-hero__heading-accent">Aliyah Merit-Gold</span>
+        </h1>
+        <p class="about-hero__subtitle" data-about-animate>
+          Software Engineer | Data Scientist | Business Growth Analyst
+        </p>
+        <p class="about-hero__intro" data-about-animate>
+          I help businesses solve real-world challenges through technology, data,
+          and digital solutions. My work combines software development, business
+          analysis, automation, and creative problem-solving to help individuals
+          and businesses improve efficiency, strengthen their online presence,
+          and achieve sustainable growth.
+        </p>
+        <!-- Breadcrumb -->
+        <nav class="about-hero__breadcrumb" aria-label="Breadcrumb" data-about-animate>
+          <a href="index.html">Home</a>
+          <i class="ph ph-caret-right" aria-hidden="true"></i>
+          <span aria-current="page">About</span>
+        </nav>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION 1 — WHO I AM
+    ============================================================ -->
+    <section class="about-who" aria-label="Who I am">
+      <div class="about-section-container">
+        <div class="about-who__grid">
+
+          <!-- Left: Image -->
+          <div class="about-who__image-wrap" data-about-animate>
+            <div class="about-who__image-deco" aria-hidden="true"></div>
+            <div class="about-who__image-deco about-who__image-deco--dots" aria-hidden="true"></div>
+            <div class="about-who__image-frame">
+              <img
+                src="images/about-photo.jpg"
+                alt="Aliyah Merit-Gold professional photo"
+                class="about-who__img"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+              />
+              <div class="about-who__img-placeholder" aria-hidden="true">
+                <i class="ph ph-user"></i>
+                <span>Your Photo Here</span>
+              </div>
+            </div>
+            <!-- Floating experience badge -->
+            <div class="about-who__badge" aria-hidden="true">
+              <i class="ph ph-star-four"></i>
+              <div>
+                <strong>MeritGold Sales</strong>
+                <span>Professional Solutions</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Text -->
+          <div class="about-who__content" data-about-animate>
+            <span class="section-eyebrow">My Story</span>
+            <h2 class="section-heading">Who I Am</h2>
+            <p class="about-who__para">
+              My name is <strong>Aliyah Merit-Gold</strong>, and I am passionate
+              about using technology and data to create practical solutions for
+              businesses and entrepreneurs.
+            </p>
+            <p class="about-who__para">
+              My journey into software engineering and data science has been driven
+              by curiosity, continuous learning, and a desire to solve meaningful
+              problems. Alongside technical development, I also help businesses
+              improve their digital presence through website development, landing
+              pages, sales funnels, business analysis, email marketing support,
+              and virtual assistance.
+            </p>
+            <p class="about-who__para">
+              I believe every business deserves solutions that are simple,
+              effective, and built with long-term growth in mind.
+            </p>
+
+            <!-- Quick highlights -->
+            <ul class="about-who__highlights" role="list">
+              <li><i class="ph ph-check-circle" aria-hidden="true"></i> Software Engineering & Web Development</li>
+              <li><i class="ph ph-check-circle" aria-hidden="true"></i> Data Analysis & Business Intelligence</li>
+              <li><i class="ph ph-check-circle" aria-hidden="true"></i> Business Growth Strategy & Digital Marketing</li>
+              <li><i class="ph ph-check-circle" aria-hidden="true"></i> Sales Funnels, Landing Pages & Email Marketing</li>
+            </ul>
+
+            <div class="about-who__actions">
+              <a href="index.html#contact" class="btn btn-primary">
+                <i class="ph ph-envelope" aria-hidden="true"></i> Get In Touch
+              </a>
+              <a href="portfolio.html" class="btn btn-secondary about-btn-secondary">
+                <i class="ph ph-folder-open" aria-hidden="true"></i> View Portfolio
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION 2 — MISSION & VISION
+    ============================================================ -->
+    <section class="about-mv" aria-label="Mission and vision">
+      <div class="about-section-container">
+        <div class="about-mv__header">
+          <span class="section-eyebrow">What Drives Me</span>
+          <h2 class="section-heading">Mission &amp; Vision</h2>
+        </div>
+
+        <div class="about-mv__grid">
+
+          <!-- Mission -->
+          <div class="about-mv__card" data-about-animate>
+            <div class="about-mv__card-icon-wrap about-mv__card-icon-wrap--gold" aria-hidden="true">
+              <i class="ph ph-rocket-launch"></i>
+            </div>
+            <h3 class="about-mv__card-title">Mission</h3>
+            <p class="about-mv__card-text">
+              To help businesses and entrepreneurs use technology, data, and
+              digital strategies to grow with confidence and achieve measurable
+              results.
+            </p>
+            <div class="about-mv__card-bar" aria-hidden="true"></div>
+          </div>
+
+          <!-- Vision -->
+          <div class="about-mv__card" data-about-animate>
+            <div class="about-mv__card-icon-wrap about-mv__card-icon-wrap--navy" aria-hidden="true">
+              <i class="ph ph-eye"></i>
+            </div>
+            <h3 class="about-mv__card-title">Vision</h3>
+            <p class="about-mv__card-text">
+              To become a trusted technology and business solutions professional
+              known for delivering practical, innovative, and growth-focused
+              digital solutions.
+            </p>
+            <div class="about-mv__card-bar about-mv__card-bar--navy" aria-hidden="true"></div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION 3 — CORE VALUES
+    ============================================================ -->
+    <section class="about-values" aria-label="Core values">
+      <div class="about-section-container">
+        <div class="about-values__header">
+          <span class="section-eyebrow">What I Stand For</span>
+          <h2 class="section-heading">My Core Values</h2>
+        </div>
+
+        <div class="about-values__grid">
+
+          <div class="about-value-card" data-about-animate>
+            <div class="about-value-card__icon-wrap" aria-hidden="true">
+              <i class="ph ph-books"></i>
+            </div>
+            <h3 class="about-value-card__title">Continuous Learning</h3>
+            <p class="about-value-card__desc">
+              Technology evolves constantly. I stay current with the latest
+              tools, trends, and techniques to deliver modern, effective solutions.
+            </p>
+          </div>
+
+          <div class="about-value-card" data-about-animate>
+            <div class="about-value-card__icon-wrap" aria-hidden="true">
+              <i class="ph ph-handshake"></i>
+            </div>
+            <h3 class="about-value-card__title">Integrity</h3>
+            <p class="about-value-card__desc">
+              I am committed to honest communication, transparent pricing, and
+              delivering exactly what I promise — every single time.
+            </p>
+          </div>
+
+          <div class="about-value-card" data-about-animate>
+            <div class="about-value-card__icon-wrap" aria-hidden="true">
+              <i class="ph ph-lightbulb"></i>
+            </div>
+            <h3 class="about-value-card__title">Innovation</h3>
+            <p class="about-value-card__desc">
+              I approach every project with fresh thinking and creative
+              problem-solving to find the most effective path forward.
+            </p>
+          </div>
+
+          <div class="about-value-card" data-about-animate>
+            <div class="about-value-card__icon-wrap" aria-hidden="true">
+              <i class="ph ph-trophy"></i>
+            </div>
+            <h3 class="about-value-card__title">Client Success</h3>
+            <p class="about-value-card__desc">
+              Your success is my success. Every solution I build is designed
+              with your goals, growth, and long-term outcomes in mind.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION 4 — SKILLS & EXPERTISE
+    ============================================================ -->
+    <section class="about-skills" aria-label="Skills and expertise">
+      <div class="about-section-container">
+        <div class="about-skills__header">
+          <span class="section-eyebrow">What I Know</span>
+          <h2 class="section-heading">Skills &amp; Expertise</h2>
+          <p class="section-description">
+            A versatile skill set built through hands-on project work, continuous
+            learning, and real-world business problem-solving.
+          </p>
+        </div>
+
+        <div class="about-skills__grid">
+
+          <!-- Software Development group -->
+          <div class="about-skill-group" data-about-animate>
+            <h3 class="about-skill-group__title">
+              <i class="ph ph-code" aria-hidden="true"></i> Software Development
+            </h3>
+            <div class="about-skill-tags">
+              <span class="about-skill-tag">HTML</span>
+              <span class="about-skill-tag">CSS</span>
+              <span class="about-skill-tag">JavaScript</span>
+              <span class="about-skill-tag">Python</span>
+              <span class="about-skill-tag">Responsive Web Design</span>
+            </div>
+          </div>
+
+          <!-- Data & Business group -->
+          <div class="about-skill-group" data-about-animate>
+            <h3 class="about-skill-group__title">
+              <i class="ph ph-chart-bar" aria-hidden="true"></i> Data &amp; Business
+            </h3>
+            <div class="about-skill-tags">
+              <span class="about-skill-tag">Data Analysis</span>
+              <span class="about-skill-tag">Business Analysis</span>
+              <span class="about-skill-tag">Problem Solving</span>
+            </div>
+          </div>
+
+          <!-- Digital Marketing group -->
+          <div class="about-skill-group" data-about-animate>
+            <h3 class="about-skill-group__title">
+              <i class="ph ph-megaphone" aria-hidden="true"></i> Digital Marketing
+            </h3>
+            <div class="about-skill-tags">
+              <span class="about-skill-tag">Landing Page Design</span>
+              <span class="about-skill-tag">Sales Funnel Creation</span>
+              <span class="about-skill-tag">Email Marketing</span>
+            </div>
+          </div>
+
+          <!-- Creative & Support group -->
+          <div class="about-skill-group" data-about-animate>
+            <h3 class="about-skill-group__title">
+              <i class="ph ph-paint-brush" aria-hidden="true"></i> Creative &amp; Support
+            </h3>
+            <div class="about-skill-tags">
+              <span class="about-skill-tag">Logo Design</span>
+              <span class="about-skill-tag">Virtual Assistance</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION 5 — MY PROCESS
+    ============================================================ -->
+    <section class="about-process" aria-label="My process">
+      <div class="about-section-container">
+        <div class="about-process__header">
+          <span class="section-eyebrow">How I Work</span>
+          <h2 class="section-heading">My Process</h2>
+          <p class="section-description">
+            A clear, structured approach that ensures every project is delivered
+            on time, on brief, and built to make a real difference.
+          </p>
+        </div>
+
+        <div class="about-process__steps">
+
+          <div class="about-process__step" data-about-animate>
+            <div class="about-process__step-num" aria-hidden="true">01</div>
+            <div class="about-process__step-icon-wrap" aria-hidden="true">
+              <i class="ph ph-ear"></i>
+            </div>
+            <div class="about-process__step-body">
+              <h3 class="about-process__step-title">Understand the Client's Goals</h3>
+              <p class="about-process__step-desc">
+                Every project begins with listening. I take time to understand
+                your business, challenges, objectives, and the outcomes you
+                want to achieve.
+              </p>
+            </div>
+            <div class="about-process__connector" aria-hidden="true">
+              <i class="ph ph-arrow-down"></i>
+            </div>
+          </div>
+
+          <div class="about-process__step" data-about-animate>
+            <div class="about-process__step-num" aria-hidden="true">02</div>
+            <div class="about-process__step-icon-wrap" aria-hidden="true">
+              <i class="ph ph-magnifying-glass"></i>
+            </div>
+            <div class="about-process__step-body">
+              <h3 class="about-process__step-title">Research &amp; Analyze</h3>
+              <p class="about-process__step-desc">
+                I research your industry, analyze relevant data, review
+                competitors, and identify the most effective strategies before
+                a single line of work begins.
+              </p>
+            </div>
+            <div class="about-process__connector" aria-hidden="true">
+              <i class="ph ph-arrow-down"></i>
+            </div>
+          </div>
+
+          <div class="about-process__step" data-about-animate>
+            <div class="about-process__step-num" aria-hidden="true">03</div>
+            <div class="about-process__step-icon-wrap" aria-hidden="true">
+              <i class="ph ph-wrench"></i>
+            </div>
+            <div class="about-process__step-body">
+              <h3 class="about-process__step-title">Design &amp; Build the Solution</h3>
+              <p class="about-process__step-desc">
+                With a clear plan in place, I design and build a solution
+                tailored to your needs — clean, functional, and focused
+                on delivering real results.
+              </p>
+            </div>
+            <div class="about-process__connector" aria-hidden="true">
+              <i class="ph ph-arrow-down"></i>
+            </div>
+          </div>
+
+          <div class="about-process__step about-process__step--last" data-about-animate>
+            <div class="about-process__step-num" aria-hidden="true">04</div>
+            <div class="about-process__step-icon-wrap" aria-hidden="true">
+              <i class="ph ph-paper-plane-tilt"></i>
+            </div>
+            <div class="about-process__step-body">
+              <h3 class="about-process__step-title">Deliver, Improve &amp; Support</h3>
+              <p class="about-process__step-desc">
+                After delivery, I remain available for refinements, improvements,
+                and ongoing support to ensure your solution continues to perform
+                and grow with your business.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION 6 — WHY WORK WITH ME
+    ============================================================ -->
+    <section class="about-why" aria-label="Why work with me">
+      <div class="about-section-container">
+        <div class="about-why__header">
+          <span class="section-eyebrow">My Strengths</span>
+          <h2 class="section-heading">Why Work With Me?</h2>
+        </div>
+
+        <div class="about-why__grid">
+
+          <div class="about-why__card" data-about-animate>
+            <div class="about-why__icon-wrap about-why__icon-wrap--blue" aria-hidden="true">
+              <i class="ph ph-chat-dots"></i>
+            </div>
+            <h3 class="about-why__card-title">Professional Communication</h3>
+            <p class="about-why__card-desc">
+              I keep clients informed at every stage with clear, timely, and
+              professional updates — no guesswork, no surprises.
+            </p>
+          </div>
+
+          <div class="about-why__card" data-about-animate>
+            <div class="about-why__icon-wrap about-why__icon-wrap--gold" aria-hidden="true">
+              <i class="ph ph-magnifying-glass-plus"></i>
+            </div>
+            <h3 class="about-why__card-title">Attention to Detail</h3>
+            <p class="about-why__card-desc">
+              Quality matters in every pixel, every line of code, and every
+              business recommendation I deliver. Precision is part of my process.
+            </p>
+          </div>
+
+          <div class="about-why__card" data-about-animate>
+            <div class="about-why__icon-wrap about-why__icon-wrap--teal" aria-hidden="true">
+              <i class="ph ph-chart-line-up"></i>
+            </div>
+            <h3 class="about-why__card-title">Data-Driven Decisions</h3>
+            <p class="about-why__card-desc">
+              Every recommendation I make is backed by data, research, and
+              proven strategies — not guesswork or assumptions.
+            </p>
+          </div>
+
+          <div class="about-why__card" data-about-animate>
+            <div class="about-why__icon-wrap about-why__icon-wrap--purple" aria-hidden="true">
+              <i class="ph ph-shield-check"></i>
+            </div>
+            <h3 class="about-why__card-title">Reliable Support</h3>
+            <p class="about-why__card-desc">
+              I'm committed to your success beyond project delivery. You can
+              count on me for consistent, dependable support when you need it.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION 7 — CTA
+    ============================================================ -->
+    <section class="about-cta" aria-label="Call to action">
+      <div class="about-cta__deco about-cta__deco--left"  aria-hidden="true"></div>
+      <div class="about-cta__deco about-cta__deco--right" aria-hidden="true"></div>
+
+      <div class="about-cta__container" data-about-animate>
+        <h2 class="about-cta__heading">
+          Let's Build Something Great Together
+        </h2>
+        <p class="about-cta__text">
+          Whether you're starting a new project or looking to improve an existing
+          one, I'd be happy to help you find practical digital solutions that
+          move your business forward.
+        </p>
+        <div class="about-cta__buttons">
+          <a href="portfolio.html"     class="btn btn-primary">
+            <i class="ph ph-folder-open" aria-hidden="true"></i> View My Portfolio
+          </a>
+          <a href="index.html#contact" class="btn about-cta__btn-outline">
+            <i class="ph ph-envelope"   aria-hidden="true"></i> Contact Me
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER — identical to homepage
+  ============================================================ -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <div class="footer-logo" aria-hidden="true">AM</div>
+        <div>
+          <p class="footer-name">Aliyah Merit-Gold</p>
+          <p class="footer-tagline">Software Engineer | Data Scientist | Business Growth Analyst</p>
+        </div>
+      </div>
+      <div class="footer-socials" role="list" aria-label="Footer social media links">
+        <a href="#" class="footer-social-link" role="listitem" aria-label="GitHub">   <i class="ph ph-github-logo"   aria-hidden="true"></i></a>
+        <a href="#" class="footer-social-link" role="listitem" aria-label="LinkedIn"> <i class="ph ph-linkedin-logo" aria-hidden="true"></i></a>
+        <a href="#" class="footer-social-link" role="listitem" aria-label="Facebook"> <i class="ph ph-facebook-logo" aria-hidden="true"></i></a>
+        <a href="#" class="footer-social-link" role="listitem" aria-label="Twitter">  <i class="ph ph-x-logo"        aria-hidden="true"></i></a>
+        <a href="#" class="footer-social-link" role="listitem" aria-label="TikTok">   <i class="ph ph-tiktok-logo"   aria-hidden="true"></i></a>
+      </div>
+      <p class="footer-copy">
+        &copy; <span id="year"></span> Aliyah Merit-Gold · MeritGold Sales. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="about.js"></script>
+</body>
+</html>
