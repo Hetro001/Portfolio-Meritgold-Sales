@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Client Testimonials — Real reviews and feedback from clients of Aliyah Merit-Gold, Software Engineer and Business Growth Analyst." />
+  <title>Testimonials | Aliyah Merit-Gold</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <script src="https://unpkg.com/@phosphor-icons/web@2.1.1/src/index.js" defer></script>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="testimonials.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION
+  ============================================================ -->
+  <header class="navbar" id="navbar" role="banner">
+    <nav class="nav-container" aria-label="Main navigation">
+      <a href="index.html" class="nav-brand" aria-label="Aliyah Merit-Gold home">
+        <div class="nav-logo" aria-hidden="true">AM</div>
+        <div class="nav-brand-text">
+          <span class="nav-name">Aliyah Merit-Gold</span>
+          <span class="nav-subtitle">MeritGold Sales</span>
+        </div>
+      </a>
+
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="index.html"              class="nav-link">Home</a></li>
+        <li><a href="about.html"              class="nav-link">About</a></li>
+        <li><a href="index.html#services"     class="nav-link">Services</a></li>
+        <li><a href="portfolio.html"     class="nav-link">Projects</a></li>
+        <li><a href="index.html#testimonials" class="nav-link active">Testimonials</a></li>
+        <li><a href="index.html#contact"      class="nav-link">Contact</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-links">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </nav>
+  </header>
+  <div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div>
+
+  <main>
+
+    <!-- ============================================================
+         HERO
+    ============================================================ -->
+    <section class="tm-hero" aria-label="Testimonials hero">
+      <div class="tm-hero__deco tm-hero__deco--ring"  aria-hidden="true"></div>
+      <div class="tm-hero__deco tm-hero__deco--dots"  aria-hidden="true"></div>
+      <div class="tm-hero__deco tm-hero__deco--glow"  aria-hidden="true"></div>
+
+      <div class="tm-hero__container">
+
+        <!-- Text -->
+        <div class="tm-hero__text" data-tm-animate>
+          <span class="section-eyebrow">What Clients Say</span>
+          <h1 class="tm-hero__heading">
+            Client <span class="tm-hero__accent">Testimonials</span>
+          </h1>
+          <p class="tm-hero__subtitle">
+            Real Experiences From Clients I've Worked With
+          </p>
+          <p class="tm-hero__intro">
+            Client feedback is one of the best ways to demonstrate trust and
+            the quality of my work. This page showcases reviews, testimonials,
+            and video feedback from clients across different services.
+          </p>
+          <nav class="tm-hero__breadcrumb" aria-label="Breadcrumb">
+            <a href="index.html">Home</a>
+            <i class="ph ph-caret-right" aria-hidden="true"></i>
+            <span aria-current="page">Testimonials</span>
+          </nav>
+        </div>
+
+        <!-- Hero image -->
+        <div class="tm-hero__image-wrap" data-tm-animate>
+          <div class="tm-hero__image-deco" aria-hidden="true"></div>
+          <div class="tm-hero__image-frame">
+            <img
+              src="images/testimonials-hero.jpg"
+              alt="Client testimonials hero image"
+              class="tm-hero__img"
+              onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+            />
+            <div class="tm-hero__img-placeholder" aria-hidden="true">
+              <i class="ph ph-star"></i>
+              <span>Client Reviews</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         STATISTICS
+    ============================================================ -->
+    <section class="tm-stats" aria-label="Statistics">
+      <div class="tm-stats__container">
+
+        <div class="tm-stat-card" data-tm-animate>
+          <div class="tm-stat-card__icon-wrap" aria-hidden="true">
+            <i class="ph ph-smiley"></i>
+          </div>
+          <span class="tm-stat-card__number">
+            <span class="tm-counter" data-target="30" data-suffix="+">0</span>
+          </span>
+          <span class="tm-stat-card__label">Happy Clients</span>
+        </div>
+
+        <div class="tm-stat-card" data-tm-animate>
+          <div class="tm-stat-card__icon-wrap tm-stat-card__icon-wrap--blue" aria-hidden="true">
+            <i class="ph ph-check-square"></i>
+          </div>
+          <span class="tm-stat-card__number">
+            <span class="tm-counter" data-target="50" data-suffix="+">0</span>
+          </span>
+          <span class="tm-stat-card__label">Completed Projects</span>
+        </div>
+
+        <div class="tm-stat-card" data-tm-animate>
+          <div class="tm-stat-card__icon-wrap tm-stat-card__icon-wrap--teal" aria-hidden="true">
+            <i class="ph ph-star"></i>
+          </div>
+          <span class="tm-stat-card__number">
+            <span class="tm-counter" data-target="40" data-suffix="+">0</span>
+          </span>
+          <span class="tm-stat-card__label">Positive Reviews</span>
+        </div>
+
+        <div class="tm-stat-card" data-tm-animate>
+          <div class="tm-stat-card__icon-wrap tm-stat-card__icon-wrap--purple" aria-hidden="true">
+            <i class="ph ph-trophy"></i>
+          </div>
+          <span class="tm-stat-card__number">
+            <span class="tm-counter" data-target="100" data-suffix="%">0</span>
+          </span>
+          <span class="tm-stat-card__label">Client Satisfaction</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         TESTIMONIAL GALLERY
+         To add more: duplicate any .tm-card article inside .tm-gallery__grid
+    ============================================================ -->
+    <section class="tm-gallery" aria-label="Testimonial gallery">
+      <div class="tm-gallery__container">
+
+        <div class="tm-gallery__header">
+          <span class="section-eyebrow">Screenshot Reviews</span>
+          <h2 class="section-heading">Client Reviews &amp; Feedback</h2>
+          <p class="section-description">
+            Click any review image to view it in full size.
+          </p>
+        </div>
+
+        <!--
+          ═══════════════════════════════════════════════════════
+          GALLERY GRID
+          To add more testimonials: copy one <article class="tm-card">
+          block and update the image src, alt, badge, name, service, date.
+          ═══════════════════════════════════════════════════════
+        -->
+        <div class="tm-gallery__grid" id="tmGallery" role="list">
+
+          <!-- CARD 1 ─ replace src with real screenshot -->
+          <article class="tm-card" role="listitem" data-tm-animate data-gallery-index="0">
+            <button class="tm-card__img-btn" aria-label="View testimonial 1 full size">
+              <img
+                src="images/testimonial-1.jpg"
+                alt="Client review screenshot 1"
+                class="tm-card__img"
+                loading="lazy"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+              />
+              <div class="tm-card__placeholder" aria-hidden="true">
+                <i class="ph ph-chat-centered-text"></i>
+                <span>Review Screenshot</span>
+              </div>
+              <div class="tm-card__zoom" aria-hidden="true">
+                <i class="ph ph-magnifying-glass-plus"></i>
+              </div>
+            </button>
+            <div class="tm-card__body">
+              <span class="tm-card__badge">Website Development</span>
+              <div class="tm-card__meta">
+                <p class="tm-card__name">Client Name</p>
+                <p class="tm-card__service">Website Development</p>
+                <p class="tm-card__date">June 2025</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 2 -->
+          <article class="tm-card" role="listitem" data-tm-animate data-gallery-index="1">
+            <button class="tm-card__img-btn" aria-label="View testimonial 2 full size">
+              <img
+                src="images/testimonial-2.jpg"
+                alt="Client review screenshot 2"
+                class="tm-card__img"
+                loading="lazy"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+              />
+              <div class="tm-card__placeholder" aria-hidden="true">
+                <i class="ph ph-chat-centered-text"></i>
+                <span>Review Screenshot</span>
+              </div>
+              <div class="tm-card__zoom" aria-hidden="true">
+                <i class="ph ph-magnifying-glass-plus"></i>
+              </div>
+            </button>
+            <div class="tm-card__body">
+              <span class="tm-card__badge">Business Growth Audit</span>
+              <div class="tm-card__meta">
+                <p class="tm-card__name">Client Name</p>
+                <p class="tm-card__service">Business Growth Audit</p>
+                <p class="tm-card__date">May 2025</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 3 -->
+          <article class="tm-card" role="listitem" data-tm-animate data-gallery-index="2">
+            <button class="tm-card__img-btn" aria-label="View testimonial 3 full size">
+              <img
+                src="images/testimonial-3.jpg"
+                alt="Client review screenshot 3"
+                class="tm-card__img"
+                loading="lazy"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+              />
+              <div class="tm-card__placeholder" aria-hidden="true">
+                <i class="ph ph-chat-centered-text"></i>
+                <span>Review Screenshot</span>
+              </div>
+              <div class="tm-card__zoom" aria-hidden="true">
+                <i class="ph ph-magnifying-glass-plus"></i>
+              </div>
+            </button>
+            <div class="tm-card__body">
+              <span class="tm-card__badge">Sales Funnel</span>
+              <div class="tm-card__meta">
+                <p class="tm-card__name">Client Name</p>
+                <p class="tm-card__service">Sales Funnel Creation</p>
+                <p class="tm-card__date">April 2025</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 4 -->
+          <article class="tm-card" role="listitem" data-tm-animate data-gallery-index="3">
+            <button class="tm-card__img-btn" aria-label="View testimonial 4 full size">
+              <img
+                src="images/testimonial-4.jpg"
+                alt="Client review screenshot 4"
+                class="tm-card__img"
+                loading="lazy"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+              />
+              <div class="tm-card__placeholder" aria-hidden="true">
+                <i class="ph ph-chat-centered-text"></i>
+                <span>Review Screenshot</span>
+              </div>
+              <div class="tm-card__zoom" aria-hidden="true">
+                <i class="ph ph-magnifying-glass-plus"></i>
+              </div>
+            </button>
+            <div class="tm-card__body">
+              <span class="tm-card__badge">Email Marketing</span>
+              <div class="tm-card__meta">
+                <p class="tm-card__name">Client Name</p>
+                <p class="tm-card__service">Email Marketing</p>
+                <p class="tm-card__date">March 2025</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 5 -->
+          <article class="tm-card" role="listitem" data-tm-animate data-gallery-index="4">
+            <button class="tm-card__img-btn" aria-label="View testimonial 5 full size">
+              <img
+                src="images/testimonial-5.jpg"
+                alt="Client review screenshot 5"
+                class="tm-card__img"
+                loading="lazy"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+              />
+              <div class="tm-card__placeholder" aria-hidden="true">
+                <i class="ph ph-chat-centered-text"></i>
+                <span>Review Screenshot</span>
+              </div>
+              <div class="tm-card__zoom" aria-hidden="true">
+                <i class="ph ph-magnifying-glass-plus"></i>
+              </div>
+            </button>
+            <div class="tm-card__body">
+              <span class="tm-card__badge">Logo Design</span>
+              <div class="tm-card__meta">
+                <p class="tm-card__name">Client Name</p>
+                <p class="tm-card__service">Logo Design</p>
+                <p class="tm-card__date">February 2025</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 6 -->
+          <article class="tm-card" role="listitem" data-tm-animate data-gallery-index="5">
+            <button class="tm-card__img-btn" aria-label="View testimonial 6 full size">
+              <img
+                src="images/testimonial-6.jpg"
+                alt="Client review screenshot 6"
+                class="tm-card__img"
+                loading="lazy"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+              />
+              <div class="tm-card__placeholder" aria-hidden="true">
+                <i class="ph ph-chat-centered-text"></i>
+                <span>Review Screenshot</span>
+              </div>
+              <div class="tm-card__zoom" aria-hidden="true">
+                <i class="ph ph-magnifying-glass-plus"></i>
+              </div>
+            </button>
+            <div class="tm-card__body">
+              <span class="tm-card__badge">Virtual Assistance</span>
+              <div class="tm-card__meta">
+                <p class="tm-card__name">Client Name</p>
+                <p class="tm-card__service">Virtual Assistance</p>
+                <p class="tm-card__date">January 2025</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 7 -->
+          <article class="tm-card" role="listitem" data-tm-animate data-gallery-index="6">
+            <button class="tm-card__img-btn" aria-label="View testimonial 7 full size">
+              <img
+                src="images/testimonial-7.jpg"
+                alt="Client review screenshot 7"
+                class="tm-card__img"
+                loading="lazy"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+              />
+              <div class="tm-card__placeholder" aria-hidden="true">
+                <i class="ph ph-chat-centered-text"></i>
+                <span>Review Screenshot</span>
+              </div>
+              <div class="tm-card__zoom" aria-hidden="true">
+                <i class="ph ph-magnifying-glass-plus"></i>
+              </div>
+            </button>
+            <div class="tm-card__body">
+              <span class="tm-card__badge">Data Analysis</span>
+              <div class="tm-card__meta">
+                <p class="tm-card__name">Client Name</p>
+                <p class="tm-card__service">Data Analysis</p>
+                <p class="tm-card__date">December 2024</p>
+              </div>
+            </div>
+          </article>
+
+        </div><!-- /tm-gallery__grid -->
+      </div>
+    </section>
+
+    <!-- ============================================================
+         LIGHTBOX MODAL
+    ============================================================ -->
+    <div
+      class="tm-lightbox"
+      id="tmLightbox"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Testimonial image viewer"
+      aria-hidden="true"
+    >
+      <div class="tm-lightbox__backdrop" id="tmLightboxBackdrop"></div>
+
+      <div class="tm-lightbox__panel">
+
+        <!-- Close -->
+        <button class="tm-lightbox__close" id="tmLightboxClose" aria-label="Close viewer">
+          <i class="ph ph-x" aria-hidden="true"></i>
+        </button>
+
+        <!-- Counter -->
+        <div class="tm-lightbox__counter" id="tmLightboxCounter" aria-live="polite">
+          1 / 7
+        </div>
+
+        <!-- Image area -->
+        <div class="tm-lightbox__img-wrap">
+          <img src="" alt="" class="tm-lightbox__img" id="tmLightboxImg" />
+          <div class="tm-lightbox__spinner" id="tmLightboxSpinner" aria-hidden="true">
+            <i class="ph ph-spinner tm-spin"></i>
+          </div>
+        </div>
+
+        <!-- Navigation -->
+        <button class="tm-lightbox__nav tm-lightbox__nav--prev" id="tmLightboxPrev" aria-label="Previous testimonial">
+          <i class="ph ph-caret-left" aria-hidden="true"></i>
+        </button>
+        <button class="tm-lightbox__nav tm-lightbox__nav--next" id="tmLightboxNext" aria-label="Next testimonial">
+          <i class="ph ph-caret-right" aria-hidden="true"></i>
+        </button>
+
+      </div>
+    </div>
+
+    <!-- ============================================================
+         VIDEO REVIEWS
+         To add more: duplicate a .tm-video-small card in the grid
+    ============================================================ -->
+    <section class="tm-videos" aria-label="Video testimonials">
+      <div class="tm-videos__container">
+
+        <div class="tm-videos__header">
+          <span class="section-eyebrow">Video Reviews</span>
+          <h2 class="section-heading">Video Testimonials</h2>
+          <p class="section-description">
+            Hear directly from clients about their experience working with me.
+          </p>
+        </div>
+
+        <!--
+          ═══════════════════════════════════════════════════════
+          FEATURED VIDEO — replace src with real thumbnail later
+          ═══════════════════════════════════════════════════════
+        -->
+        <div class="tm-video-featured" data-tm-animate>
+          <div class="tm-video-featured__wrap">
+            <img
+              src="images/video-thumbnail-featured.jpg"
+              alt="Featured video testimonial thumbnail"
+              class="tm-video-featured__thumb"
+              onerror="this.style.display='none';"
+            />
+            <div class="tm-video-featured__overlay" aria-hidden="true"></div>
+            <button class="tm-video-featured__play" aria-label="Play featured video testimonial">
+              <i class="ph ph-play-circle" aria-hidden="true"></i>
+            </button>
+            <div class="tm-video-featured__label" aria-hidden="true">
+              <i class="ph ph-video-camera"></i>
+              <div>
+                <strong>Featured Video Review</strong>
+                <span>Client Video Testimonial</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--
+          ═══════════════════════════════════════════════════════
+          SMALLER VIDEO CARDS
+          To add more: duplicate a .tm-video-small article
+          ═══════════════════════════════════════════════════════
+        -->
+        <div class="tm-videos__grid">
+
+          <!-- Small video 1 -->
+          <article class="tm-video-small" data-tm-animate>
+            <div class="tm-video-small__thumb-wrap">
+              <img
+                src="images/video-thumb-1.jpg"
+                alt="Video review 1 thumbnail"
+                class="tm-video-small__thumb"
+                loading="lazy"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+              />
+              <div class="tm-video-small__placeholder" aria-hidden="true">
+                <i class="ph ph-video-camera"></i>
+              </div>
+              <div class="tm-video-small__overlay" aria-hidden="true"></div>
+              <button class="tm-video-small__play" aria-label="Play video review 1">
+                <i class="ph ph-play-circle" aria-hidden="true"></i>
+              </button>
+              <span class="tm-video-small__badge">Video Review</span>
+            </div>
+            <div class="tm-video-small__body">
+              <p class="tm-video-small__title">Client Video Review</p>
+              <p class="tm-video-small__desc">A short video testimonial from a satisfied client sharing their experience.</p>
+            </div>
+          </article>
+
+          <!-- Small video 2 -->
+          <article class="tm-video-small" data-tm-animate>
+            <div class="tm-video-small__thumb-wrap">
+              <img
+                src="images/video-thumb-2.jpg"
+                alt="Video review 2 thumbnail"
+                class="tm-video-small__thumb"
+                loading="lazy"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+              />
+              <div class="tm-video-small__placeholder" aria-hidden="true">
+                <i class="ph ph-video-camera"></i>
+              </div>
+              <div class="tm-video-small__overlay" aria-hidden="true"></div>
+              <button class="tm-video-small__play" aria-label="Play video review 2">
+                <i class="ph ph-play-circle" aria-hidden="true"></i>
+              </button>
+              <span class="tm-video-small__badge">Video Review</span>
+            </div>
+            <div class="tm-video-small__body">
+              <p class="tm-video-small__title">Client Video Review</p>
+              <p class="tm-video-small__desc">A short video testimonial from a satisfied client sharing their experience.</p>
+            </div>
+          </article>
+
+          <!-- Small video 3 -->
+          <article class="tm-video-small" data-tm-animate>
+            <div class="tm-video-small__thumb-wrap">
+              <img
+                src="images/video-thumb-3.jpg"
+                alt="Video review 3 thumbnail"
+                class="tm-video-small__thumb"
+                loading="lazy"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+              />
+              <div class="tm-video-small__placeholder" aria-hidden="true">
+                <i class="ph ph-video-camera"></i>
+              </div>
+              <div class="tm-video-small__overlay" aria-hidden="true"></div>
+              <button class="tm-video-small__play" aria-label="Play video review 3">
+                <i class="ph ph-play-circle" aria-hidden="true"></i>
+              </button>
+              <span class="tm-video-small__badge">Video Review</span>
+            </div>
+            <div class="tm-video-small__body">
+              <p class="tm-video-small__title">Client Video Review</p>
+              <p class="tm-video-small__desc">A short video testimonial from a satisfied client sharing their experience.</p>
+            </div>
+          </article>
+
+        </div><!-- /tm-videos__grid -->
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CLIENT TRUST SECTION
+    ============================================================ -->
+    <section class="tm-trust" aria-label="Why clients trust me">
+      <div class="tm-trust__container">
+
+        <div class="tm-trust__header">
+          <span class="section-eyebrow">Why Clients Return</span>
+          <h2 class="section-heading">Built on Trust and Quality</h2>
+          <p class="section-description">
+            Every client relationship is built on these core principles that
+            guide how I work and deliver results.
+          </p>
+        </div>
+
+        <div class="tm-trust__grid">
+
+          <div class="tm-trust-card" data-tm-animate>
+            <div class="tm-trust-card__icon-wrap tm-trust-card__icon-wrap--blue" aria-hidden="true">
+              <i class="ph ph-chat-dots"></i>
+            </div>
+            <h3 class="tm-trust-card__title">Professional Communication</h3>
+            <p class="tm-trust-card__desc">
+              Clear, timely, and professional communication at every stage of the
+              project — no confusion, no surprises.
+            </p>
+          </div>
+
+          <div class="tm-trust-card" data-tm-animate>
+            <div class="tm-trust-card__icon-wrap tm-trust-card__icon-wrap--gold" aria-hidden="true">
+              <i class="ph ph-magnifying-glass-plus"></i>
+            </div>
+            <h3 class="tm-trust-card__title">Attention to Detail</h3>
+            <p class="tm-trust-card__desc">
+              Every project is reviewed carefully to ensure accuracy, quality,
+              and a result that meets or exceeds expectations.
+            </p>
+          </div>
+
+          <div class="tm-trust-card" data-tm-animate>
+            <div class="tm-trust-card__icon-wrap tm-trust-card__icon-wrap--teal" aria-hidden="true">
+              <i class="ph ph-clock-countdown"></i>
+            </div>
+            <h3 class="tm-trust-card__title">Reliable Delivery</h3>
+            <p class="tm-trust-card__desc">
+              Projects are delivered on time and within the agreed scope — because
+              your time and business goals matter.
+            </p>
+          </div>
+
+          <div class="tm-trust-card" data-tm-animate>
+            <div class="tm-trust-card__icon-wrap tm-trust-card__icon-wrap--purple" aria-hidden="true">
+              <i class="ph ph-shield-check"></i>
+            </div>
+            <h3 class="tm-trust-card__title">Long-Term Support</h3>
+            <p class="tm-trust-card__desc">
+              My commitment doesn't end at delivery. I remain available to support,
+              improve, and grow with your business over time.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         FINAL CTA
+    ============================================================ -->
+    <section class="tm-cta" aria-label="Call to action">
+      <div class="tm-cta__deco tm-cta__deco--l" aria-hidden="true"></div>
+      <div class="tm-cta__deco tm-cta__deco--r" aria-hidden="true"></div>
+      <div class="tm-cta__container" data-tm-animate>
+        <h2 class="tm-cta__heading">
+          Ready to Become My Next Success Story?
+        </h2>
+        <p class="tm-cta__text">
+          If you're looking for high-quality digital solutions backed by
+          professionalism and attention to detail, I'd love to discuss
+          your project.
+        </p>
+        <div class="tm-cta__buttons">
+          <a href="services.html" class="btn btn-primary">
+            <i class="ph ph-squares-four" aria-hidden="true"></i> Explore My Services
+          </a>
+          <a href="index.html#contact" class="btn tm-cta__btn-outline">
+            <i class="ph ph-envelope" aria-hidden="true"></i> Contact Me
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <div class="footer-logo" aria-hidden="true">AM</div>
+        <div>
+          <p class="footer-name">Aliyah Merit-Gold</p>
+          <p class="footer-tagline">Software Engineer | Data Scientist | Business Growth Analyst</p>
+        </div>
+      </div>
+      <div class="footer-socials" role="list" aria-label="Footer social media links">
+        <a href="#" class="footer-social-link" role="listitem" aria-label="GitHub">   <i class="ph ph-github-logo"   aria-hidden="true"></i></a>
+        <a href="#" class="footer-social-link" role="listitem" aria-label="LinkedIn"> <i class="ph ph-linkedin-logo" aria-hidden="true"></i></a>
+        <a href="#" class="footer-social-link" role="listitem" aria-label="Facebook"> <i class="ph ph-facebook-logo" aria-hidden="true"></i></a>
+        <a href="#" class="footer-social-link" role="listitem" aria-label="Twitter">  <i class="ph ph-x-logo"        aria-hidden="true"></i></a>
+        <a href="#" class="footer-social-link" role="listitem" aria-label="TikTok">   <i class="ph ph-tiktok-logo"   aria-hidden="true"></i></a>
+      </div>
+      <p class="footer-copy">
+        &copy; <span id="year"></span> Aliyah Merit-Gold · MeritGold Sales. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="testimonials.js"></script>
+</body>
+</html>

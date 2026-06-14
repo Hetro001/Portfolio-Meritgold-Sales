@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Aliyah Merit-Gold — Showcasing work in software development, landing pages, sales funnels, email marketing, business analysis, and logo design." />
+  <title>Portfolio | Aliyah Merit-Gold</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <script src="https://unpkg.com/@phosphor-icons/web@2.1.1/src/index.js" defer></script>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="portfolio.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION
+  ============================================================ -->
+  <header class="navbar" id="navbar" role="banner">
+    <nav class="nav-container" aria-label="Main navigation">
+      <a href="index.html" class="nav-brand" aria-label="Aliyah Merit-Gold home">
+        <div class="nav-logo" aria-hidden="true">AM</div>
+        <div class="nav-brand-text">
+          <span class="nav-name">Aliyah Merit-Gold</span>
+          <span class="nav-subtitle">MeritGold Sales</span>
+        </div>
+      </a>
+
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="index.html"             class="nav-link">Home</a></li>
+        <li><a href="about.html"             class="nav-link">About</a></li>
+        <li><a href="services.html"    class="nav-link">Services</a></li>
+        <li><a href="index.html#projects"    class="nav-link active">Projects</a></li>
+        <li><a href="testimonials.html"      class="nav-link">Testimonials</a></li>
+        <li><a href="index.html#contact"     class="nav-link">Contact</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-links">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </nav>
+  </header>
+  <div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div>
+
+  <main>
+
+    <!-- ============================================================
+         HERO
+    ============================================================ -->
+    <section class="pf-hero" aria-label="Portfolio hero">
+      <div class="pf-hero__deco pf-hero__deco--ring"  aria-hidden="true"></div>
+      <div class="pf-hero__deco pf-hero__deco--dots"  aria-hidden="true"></div>
+      <div class="pf-hero__deco pf-hero__deco--glow"  aria-hidden="true"></div>
+
+      <div class="pf-hero__container">
+
+        <div class="pf-hero__text" data-pf-animate>
+          <span class="section-eyebrow">My Work</span>
+          <h1 class="pf-hero__heading">
+            My <span class="pf-hero__accent">Portfolio</span>
+          </h1>
+          <p class="pf-hero__subtitle">
+            A Collection of My Work and Digital Solutions
+          </p>
+          <p class="pf-hero__intro">
+            Every project represents a practical solution created to solve real
+            business challenges. My portfolio showcases work across software
+            development, website cloning, landing pages, sales funnels, email
+            marketing, business analysis, and creative design.
+          </p>
+          <nav class="pf-hero__breadcrumb" aria-label="Breadcrumb">
+            <a href="index.html">Home</a>
+            <i class="ph ph-caret-right" aria-hidden="true"></i>
+            <span aria-current="page">Portfolio</span>
+          </nav>
+        </div>
+
+        <!-- Hero image placeholder -->
+        <div class="pf-hero__image-wrap" data-pf-animate>
+          <div class="pf-hero__image-deco" aria-hidden="true"></div>
+          <div class="pf-hero__image-frame">
+            <img
+              src="images/portfolio-hero.jpg"
+              alt="Portfolio hero image"
+              class="pf-hero__img"
+              onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+            />
+            <div class="pf-hero__img-placeholder" aria-hidden="true">
+              <i class="ph ph-squares-four"></i>
+              <span>Portfolio Showcase</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         QUICK NAVIGATION
+    ============================================================ -->
+    <nav class="pf-quicknav" aria-label="Jump to portfolio section">
+      <div class="pf-quicknav__container">
+        <p class="pf-quicknav__label" aria-hidden="true">
+          <i class="ph ph-cursor-click"></i> Jump to a project:
+        </p>
+        <div class="pf-quicknav__pills">
+          <a href="#website-clone"        class="pf-pill">Website Clone</a>
+          <a href="#landing-page"         class="pf-pill">Landing Pages</a>
+          <a href="#sales-funnel"         class="pf-pill">Sales Funnels</a>
+          <a href="#email-marketing"      class="pf-pill">Email Marketing</a>
+          <a href="#business-growth-audit" class="pf-pill">Business Growth Audit</a>
+          <a href="#instagram-analysis"   class="pf-pill">Instagram Analysis</a>
+          <a href="#logo-design"          class="pf-pill">Logo Design</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ============================================================
+         PROJECT SECTIONS
+    ============================================================ -->
+
+    <!-- ── PROJECT 1: WEBSITE CLONE ── image left / content right -->
+    <section class="pf-project pf-project--light" id="website-clone" aria-label="Website Clone project">
+      <div class="pf-project__container">
+
+        <!-- Image LEFT -->
+        <div class="pf-project__image-wrap" data-pf-animate>
+          <img
+            src="images/proj-website-clone.jpg"
+            alt="Responsive Website Clone project screenshot"
+            class="pf-project__img"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+          />
+          <div class="pf-project__placeholder" aria-hidden="true">
+            <i class="ph ph-monitor"></i>
+            <span>Website Clone Screenshot</span>
+          </div>
+          <span class="pf-project__badge">Website Clone</span>
+        </div>
+
+        <!-- Content RIGHT -->
+        <div class="pf-project__content" data-pf-animate>
+          <span class="section-eyebrow">Project 01</span>
+          <h2 class="pf-project__heading">Responsive Website Clone</h2>
+
+          <div class="pf-project__details">
+
+            <div class="pf-project__detail-block">
+              <h3 class="pf-project__detail-title">
+                <i class="ph ph-file-text" aria-hidden="true"></i> Project Overview
+              </h3>
+              <p>A professional recreation of an existing website built entirely from scratch using HTML and CSS. The goal was to replicate the design accurately while ensuring the result was fully responsive across all screen sizes and devices.</p>
+            </div>
+
+            <div class="pf-project__detail-block">
+              <h3 class="pf-project__detail-title">
+                <i class="ph ph-target" aria-hidden="true"></i> Client Goal
+              </h3>
+              <p>The client needed a clean, responsive website that matched a reference design closely — demonstrating that professional web results can be achieved without expensive platforms or tools.</p>
+            </div>
+
+            <div class="pf-project__detail-block">
+              <h3 class="pf-project__detail-title">
+                <i class="ph ph-lightbulb" aria-hidden="true"></i> My Approach
+              </h3>
+              <p>I carefully analyzed the reference design, broke it into sections, and rebuilt each part using semantic HTML and modern CSS — including Flexbox and Grid for layout, and media queries for full responsiveness.</p>
+            </div>
+
+            <div class="pf-project__tools-wrap">
+              <h3 class="pf-project__detail-title">
+                <i class="ph ph-wrench" aria-hidden="true"></i> Tools Used
+              </h3>
+              <div class="pf-project__tools">
+                <span class="pf-tool-tag">HTML5</span>
+                <span class="pf-tool-tag">CSS3</span>
+                <span class="pf-tool-tag">Flexbox</span>
+                <span class="pf-tool-tag">CSS Grid</span>
+                <span class="pf-tool-tag">Responsive Design</span>
+              </div>
+            </div>
+
+            <div class="pf-project__detail-block">
+              <h3 class="pf-project__detail-title">
+                <i class="ph ph-check-circle" aria-hidden="true"></i> Outcome
+              </h3>
+              <p>Delivered a pixel-accurate, fully responsive website clone that performs consistently across desktop, tablet, and mobile — with clean, maintainable code ready for further development.</p>
+            </div>
+
+          </div>
+
+          <a href="index.html#contact" class="btn btn-primary pf-project__cta">
+            <i class="ph ph-envelope" aria-hidden="true"></i> Contact Me
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── PROJECT 2: LANDING PAGE ── content left / image right -->
+    <section class="pf-project pf-project--dark" id="landing-page" aria-label="Landing Page project">
+      <div class="pf-project__container pf-project__container--flip">
+
+        <!-- Content LEFT -->
+        <div class="pf-project__content" data-pf-animate>
+          <span class="section-eyebrow">Project 02</span>
+          <h2 class="pf-project__heading pf-project__heading--light">Landing Page Design</h2>
+
+          <div class="pf-project__details">
+
+            <div class="pf-project__detail-block">
+              <h3 class="pf-project__detail-title pf-project__detail-title--light">
+                <i class="ph ph-file-text" aria-hidden="true"></i> Project Overview
+              </h3>
+              <p class="pf-project__detail-text--light">A high-converting landing page designed and built on Systeme.io to help a business capture leads, present their offer clearly, and encourage visitors to take action.</p>
+            </div>
+
+            <div class="pf-project__detail-block">
+              <h3 class="pf-project__detail-title pf-project__detail-title--light">
+                <i class="ph ph-target" aria-hidden="true"></i> Client Goal
+              </h3>
+              <p class="pf-project__detail-text--light">The client needed an attractive, professional landing page that would convert visitors into leads, clearly communicate their value proposition, and integrate with an email list.</p>
+            </div>
+
+            <div class="pf-project__detail-block">
+              <h3 class="pf-project__detail-title pf-project__detail-title--light">
+                <i class="ph ph-lightbulb" aria-hidden="true"></i> My Approach
+              </h3>
+              <p class="pf-project__detail-text--light">I structured the page using proven conversion principles — a compelling headline, clear benefits, social proof elements, and a strong call-to-action — then built it on Systeme.io for easy management.</p>
+            </div>
+
+            <div class="pf-project__tools-wrap">
+              <h3 class="pf-project__detail-title pf-project__detail-title--light">
+                <i class="ph ph-wrench" aria-hidden="true"></i> Tools Used
+              </h3>
+              <div class="pf-project__tools">
+                <span class="pf-tool-tag pf-tool-tag--light">Systeme.io</span>
+                <span class="pf-tool-tag pf-tool-tag--light">Responsive Design</span>
+                <span class="pf-tool-tag pf-tool-tag--light">Conversion Strategy</span>
+              </div>
+            </div>
+
+            <div class="pf-project__detail-block">
+              <h3 class="pf-project__detail-title pf-project__detail-title--light">
+                <i class="ph ph-check-circle" aria-hidden="true"></i> Outcome
+              </h3>
+              <p class="pf-project__detail-text--light">Delivered a clean, mobile-optimized landing page that clearly communicated the client's offer and was set up to capture leads directly into their email list from day one.</p>
+            </div>
+
+          </div>
+
+          <a href="index.html#contact" class="btn btn-primary pf-project__cta">
+            <i class="ph ph-envelope" aria-hidden="true"></i> Contact Me
+          </a>
+        </div>
+
+        <!-- Image RIGHT -->
+        <div class="pf-project__image-wrap" data-pf-animate>
+          <img
+            src="images/proj-landing-page.jpg"
+            alt="Landing Page Design project screenshot"
+            class="pf-project__img"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+          />
+          <div class="pf-project__placeholder pf-project__placeholder--dark" aria-hidden="true">
+            <i class="ph ph-layout"></i>
+            <span>Landing Page Screenshot</span>
+          </div>
+          <span class="pf-project__badge">Landing Page</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── PROJECT 3: SALES FUNNEL ── image left / content right -->
+    <section class="pf-project pf-project--light" id="sales-funnel" aria-label="Sales Funnel project">
+      <div class="pf-project__container">
+
+        <!-- Image LEFT -->
+        <div class="pf-project__image-wrap" data-pf-animate>
+          <img
+            src="images/proj-sales-funnel.jpg"
+            alt="Sales Funnel Creation project screenshot"
+            class="pf-project__img"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+          />
+          <div class="pf-project__placeholder" aria-hidden="true">
+            <i class="ph ph-funnel"></i>
+            <span>Sales Funnel Screenshot</span>
+          </div>
+          <span class="pf-project__badge">Sales Funnel</span>
+        </div>
+
+        <!-- Content RIGHT -->
+        <div class="pf-project__content" data-pf-animate>
+          <span class="section-eyebrow">Project 03</span>
+          <h2 class="pf-project__heading">Sales Funnel Creation</h2>
+
+          <div class="pf-project__details">
+
+            <div class="pf-project__detail-block">
+              <h3 class="pf-project__detail-title">
+                <i class="ph ph-file-text" aria-hidden="true"></i> Project Overview
+              </h3>
+              <p>A complete multi-step sales funnel built on Systeme.io that guided visitors from initial interest all the way through to a purchase decision — including an opt-in page, nurture emails, and a sales page.</p>
+            </div>
+
+            <div class="pf-project__detail-block">
+              <h3 class="pf-project__detail-title">
+                <i class="ph ph-target" aria-hidden="true"></i> Client Goal
+              </h3>
+              <p>The client wanted a systematic way to convert website visitors into paying customers without manually following up with every lead — a fully automated customer journey.</p>
+            </div>
+
+            <div class="pf-project__detail-block">
+              <h3 class="pf-project__detail-title">
+                <i class="ph ph-lightbulb" aria-hidden="true"></i> My Approach
+              </h3>
+              <p>I mapped out the complete customer journey, identified the key decision points, and built each funnel stage in sequence — from the lead magnet opt-in through to the final offer — with email automation connecting each step.</p>
+            </div>
+
+            <div class="pf-project__tools-wrap">
+              <h3 class="pf-project__detail-title">
+                <i class="ph ph-wrench" aria-hidden="true"></i> Tools Used
+              </h3>
+              <div class="pf-project__tools">
+                <span class="pf-tool-tag">Systeme.io</span>
+                <span class="pf-tool-tag">Funnel Strategy</span>
+                <span class="pf-tool-tag">Email Automation</span>
+              </div>
+            </div>
+
+            <div class="pf-project__detail-block">
+              <h3 class="pf-project__detail-title">
+                <i class="ph ph-check-circle" aria-hidden="true"></i> Outcome
+              </h3>
+              <p>Delivered a fully operational, automated sales funnel that consistently nurtured leads and moved them toward conversion — reducing the client's manual follow-up workload significantly.</p>
+            </div>
+
+          </div>
+
+          <a href="index.html#contact" class="btn btn-primary pf-project__cta">
+            <i class="ph ph-envelope" aria-hidden="true"></i> Contact Me
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── PROJECT 4: EMAIL MARKETING ── content left / image right -->
+    <section class="pf-project pf-project--dark" id="email-marketing" aria-label="Email Marketing project">
+      <div class="pf-project__container pf-project__container--flip">
+
+        <!-- Content LEFT -->
+        <div class="pf-project__content" data-pf-animate>
+          <span class="section-eyebrow">Project 04</span>
+          <h2 class="pf-project__heading pf-project__heading--light">Email Marketing Campaign</h2>
+
+          <div class="pf-project__details">
+
+            <div class="pf-project__detail-block">
+              <h3 class="pf-project__detail-title pf-project__detail-title--light">
+                <i class="ph ph-file-text" aria-hidden="true"></i> Project Overview
+              </h3>
+              <p class="pf-project__detail-text--light">A targeted email marketing campaign designed to nurture an existing subscriber list, re-engage cold leads, and drive sales through a series of strategic, well-timed emails.</p>
+            </div>
+
+            <div class="pf-project__detail-block">
+              <h3 class="pf-project__detail-title pf-project__detail-title--light">
+                <i class="ph ph-target" aria-hidden="true"></i> Client Goal
+              </h3>
+              <p class="pf-project__detail-text--light">The client had a growing email list but was not actively communicating with their subscribers. They needed a campaign that would re-engage their audience and generate consistent sales.</p>
+            </div>
+
+            <div class="pf-project__detail-block">
+              <h3 class="pf-project__detail-title pf-project__detail-title--light">
+                <i class="ph ph-lightbulb" aria-hidden="true"></i> My Approach
+              </h3>
+              <p class="pf-project__detail-text--light">I created a structured email sequence that started with a warm re-engagement message, followed by value-driven content emails, and concluded with a promotional offer — all set up as an automation in Systeme.io.</p>
+            </div>
+
+            <div class="pf-project__tools-wrap">
+              <h3 class="pf-project__detail-title pf-project__detail-title--light">
+                <i class="ph ph-wrench" aria-hidden="true"></i> Tools Used
+              </h3>
+              <div class="pf-project__tools">
+                <span class="pf-tool-tag pf-tool-tag--light">Systeme.io</span>
+                <span class="pf-tool-tag pf-tool-tag--light">Email Marketing</span>
+                <span class="pf-tool-tag pf-tool-tag--light">Copywriting</span>
+                <span class="pf-tool-tag pf-tool-tag--light">Automation</span>
+              </div>
+            </div>
+
+            <div class="pf-project__detail-block">
+              <h3 class="pf-project__detail-title pf-project__detail-title--light">
+                <i class="ph ph-check-circle" aria-hidden="true"></i> Outcome
+              </h3>
+              <p class="pf-project__detail-text--light">The campaign successfully re-engaged the subscriber list, improved open rates, and generated direct sales responses — giving the client a repeatable email system they could continue using.</p>
+            </div>
+
+          </div>
+
+          <a href="index.html#contact" class="btn btn-primary pf-project__cta">
+            <i class="ph ph-envelope" aria-hidden="true"></i> Contact Me
+          </a>
+        </div>
+
+        <!-- Image RIGHT -->
+        <div class="pf-project__image-wrap" data-pf-animate>
+          <img
+            src="images/proj-email-marketing.jpg"
+            alt="Email Marketing Campaign project screenshot"
+            class="pf-project__img"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+          />
+          <div class="pf-project__placeholder pf-project__placeholder--dark" aria-hidden="true">
+            <i class="ph ph-envelope-open"></i>
+            <span>Email Campaign Screenshot</span>
+          </div>
+          <span class="pf-project__badge">Email Marketing</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── PROJECT 5: BUSINESS GROWTH AUDIT ── image left / content right -->
+    <section class="pf-project pf-project--light" id="business-growth-audit" aria-label="Business Growth Audit project">
+      <div class="pf-project__container">
+
+        <!-- Image LEFT -->
+        <div class="pf-project__image-wrap" data-pf-animate>
+          <img
+            src="images/proj-growth-audit.jpg"
+            alt="Business Growth Audit project screenshot"
+            class="pf-project__img"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+          />
+          <div class="pf-project__placeholder" aria-hidden="true">
+            <i class="ph ph-magnifying-glass-plus"></i>
+            <span>Growth Audit Screenshot</span>
+          </div>
+          <span class="pf-project__badge">Business Audit</span>
+        </div>
+
+        <!-- Content RIGHT -->
+        <div class="pf-project__content" data-pf-animate>
+          <span class="section-eyebrow">Project 05</span>
+          <h2 class="pf-project__heading">Business Growth Audit</h2>
+
+          <div class="pf-project__details">
+
+            <div class="pf-project__detail-block">
+              <h3 class="pf-project__detail-title">
+                <i class="ph ph-file-text" aria-hidden="true"></i> Project Overview
+              </h3>
+              <p>A comprehensive business audit conducted for a small business to identify hidden opportunities for growth, operational inefficiencies, and specific improvements that could be implemented immediately to improve performance.</p>
+            </div>
+
+            <div class="pf-project__detail-block">
+              <h3 class="pf-project__detail-title">
+                <i class="ph ph-target" aria-hidden="true"></i> Client Goal
+              </h3>
+              <p>The client felt their business had plateaued and needed an objective external review to understand where they were losing potential customers and what they could do differently to improve results.</p>
+            </div>
+
+            <div class="pf-project__detail-block">
+              <h3 class="pf-project__detail-title">
+                <i class="ph ph-lightbulb" aria-hidden="true"></i> My Approach
+              </h3>
+              <p>I reviewed the client's online presence, customer communication processes, content strategy, and competitor landscape — then compiled a detailed written report with prioritized, actionable recommendations.</p>
+            </div>
+
+            <div class="pf-project__tools-wrap">
+              <h3 class="pf-project__detail-title">
+                <i class="ph ph-wrench" aria-hidden="true"></i> Tools Used
+              </h3>
+              <div class="pf-project__tools">
+                <span class="pf-tool-tag">Business Research</span>
+                <span class="pf-tool-tag">Analytics Tools</span>
+                <span class="pf-tool-tag">Competitive Analysis</span>
+                <span class="pf-tool-tag">Strategic Planning</span>
+              </div>
+            </div>
+
+            <div class="pf-project__detail-block">
+              <h3 class="pf-project__detail-title">
+                <i class="ph ph-check-circle" aria-hidden="true"></i> Outcome
+              </h3>
+              <p>The client received a clear, structured audit report with specific next steps. Several recommendations were implemented within the first month, resulting in noticeable improvements to their online engagement and lead generation.</p>
+            </div>
+
+          </div>
+
+          <a href="index.html#contact" class="btn btn-primary pf-project__cta">
+            <i class="ph ph-envelope" aria-hidden="true"></i> Contact Me
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── PROJECT 6: INSTAGRAM ANALYSIS ── content left / image right -->
+    <section class="pf-project pf-project--dark" id="instagram-analysis" aria-label="Instagram Growth Analysis project">
+      <div class="pf-project__container pf-project__container--flip">
+
+        <!-- Content LEFT -->
+        <div class="pf-project__content" data-pf-animate>
+          <span class="section-eyebrow">Project 06</span>
+          <h2 class="pf-project__heading pf-project__heading--light">Instagram Growth Analysis</h2>
+
+          <div class="pf-project__details">
+
+            <div class="pf-project__detail-block">
+              <h3 class="pf-project__detail-title pf-project__detail-title--light">
+                <i class="ph ph-file-text" aria-hidden="true"></i> Project Overview
+              </h3>
+              <p class="pf-project__detail-text--light">An in-depth analysis of a client's Instagram account to identify growth bottlenecks, content performance patterns, audience engagement issues, and specific opportunities to improve visibility and reach.</p>
+            </div>
+
+            <div class="pf-project__detail-block">
+              <h3 class="pf-project__detail-title pf-project__detail-title--light">
+                <i class="ph ph-target" aria-hidden="true"></i> Client Goal
+              </h3>
+              <p class="pf-project__detail-text--light">The client had been posting consistently on Instagram but was seeing very little growth. They needed to understand why their content was not gaining traction and what changes would make a measurable difference.</p>
+            </div>
+
+            <div class="pf-project__detail-block">
+              <h3 class="pf-project__detail-title pf-project__detail-title--light">
+                <i class="ph ph-lightbulb" aria-hidden="true"></i> My Approach
+              </h3>
+              <p class="pf-project__detail-text--light">I analyzed the account's content history, posting frequency, hashtag strategy, engagement rates, audience demographics, and competitor accounts — then created a detailed report with a revised content and growth strategy.</p>
+            </div>
+
+            <div class="pf-project__tools-wrap">
+              <h3 class="pf-project__detail-title pf-project__detail-title--light">
+                <i class="ph ph-wrench" aria-hidden="true"></i> Tools Used
+              </h3>
+              <div class="pf-project__tools">
+                <span class="pf-tool-tag pf-tool-tag--light">Instagram Insights</span>
+                <span class="pf-tool-tag pf-tool-tag--light">Analytics Tools</span>
+                <span class="pf-tool-tag pf-tool-tag--light">Business Research</span>
+                <span class="pf-tool-tag pf-tool-tag--light">Content Strategy</span>
+              </div>
+            </div>
+
+            <div class="pf-project__detail-block">
+              <h3 class="pf-project__detail-title pf-project__detail-title--light">
+                <i class="ph ph-check-circle" aria-hidden="true"></i> Outcome
+              </h3>
+              <p class="pf-project__detail-text--light">The client received a complete analysis report and a clear 30-day action plan. After implementing the recommended changes, they saw a marked improvement in engagement, follower growth, and content reach.</p>
+            </div>
+
+          </div>
+
+          <a href="index.html#contact" class="btn btn-primary pf-project__cta">
+            <i class="ph ph-envelope" aria-hidden="true"></i> Contact Me
+          </a>
+        </div>
+
+        <!-- Image RIGHT -->
+        <div class="pf-project__image-wrap" data-pf-animate>
+          <img
+            src="images/proj-instagram.jpg"
+            alt="Instagram Growth Analysis project screenshot"
+            class="pf-project__img"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+          />
+          <div class="pf-project__placeholder pf-project__placeholder--dark" aria-hidden="true">
+            <i class="ph ph-chart-line-up"></i>
+            <span>Instagram Analysis Screenshot</span>
+          </div>
+          <span class="pf-project__badge">Instagram Analysis</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── PROJECT 7: LOGO DESIGN ── image left / content right -->
+    <section class="pf-project pf-project--light" id="logo-design" aria-label="Logo Design project">
+      <div class="pf-project__container">
+
+        <!-- Image LEFT -->
+        <div class="pf-project__image-wrap" data-pf-animate>
+          <img
+            src="images/proj-logo-design.jpg"
+            alt="Logo Design project screenshot"
+            class="pf-project__img"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+          />
+          <div class="pf-project__placeholder" aria-hidden="true">
+            <i class="ph ph-pen-nib"></i>
+            <span>Logo Design Screenshot</span>
+          </div>
+          <span class="pf-project__badge">Logo Design</span>
+        </div>
+
+        <!-- Content RIGHT -->
+        <div class="pf-project__content" data-pf-animate>
+          <span class="section-eyebrow">Project 07</span>
+          <h2 class="pf-project__heading">Logo Design</h2>
+
+          <div class="pf-project__details">
+
+            <div class="pf-project__detail-block">
+              <h3 class="pf-project__detail-title">
+                <i class="ph ph-file-text" aria-hidden="true"></i> Project Overview
+              </h3>
+              <p>A professional logo design project that created a clean, modern, and memorable brand identity for a client launching a new business — covering the mark, typography, and core brand colour palette.</p>
+            </div>
+
+            <div class="pf-project__detail-block">
+              <h3 class="pf-project__detail-title">
+                <i class="ph ph-target" aria-hidden="true"></i> Client Goal
+              </h3>
+              <p>The client was starting a new business and needed a professional logo that would communicate trust, quality, and a clear brand identity — something that would look great across both digital and print uses.</p>
+            </div>
+
+            <div class="pf-project__detail-block">
+              <h3 class="pf-project__detail-title">
+                <i class="ph ph-lightbulb" aria-hidden="true"></i> My Approach
+              </h3>
+              <p>I started by understanding the client's brand values, target audience, and competitors. I then explored multiple design directions, selected the strongest concept, and refined it through feedback rounds until the final logo was complete.</p>
+            </div>
+
+            <div class="pf-project__tools-wrap">
+              <h3 class="pf-project__detail-title">
+                <i class="ph ph-wrench" aria-hidden="true"></i> Tools Used
+              </h3>
+              <div class="pf-project__tools">
+                <span class="pf-tool-tag">Graphic Design</span>
+                <span class="pf-tool-tag">Typography</span>
+                <span class="pf-tool-tag">Brand Colors</span>
+                <span class="pf-tool-tag">Visual Identity</span>
+              </div>
+            </div>
+
+            <div class="pf-project__detail-block">
+              <h3 class="pf-project__detail-title">
+                <i class="ph ph-check-circle" aria-hidden="true"></i> Outcome
+              </h3>
+              <p>Delivered a complete logo package including multiple format files (PNG, SVG, high-resolution), a defined colour palette, and typography guidance — giving the client everything needed to build a consistent brand presence from day one.</p>
+            </div>
+
+          </div>
+
+          <a href="index.html#contact" class="btn btn-primary pf-project__cta">
+            <i class="ph ph-envelope" aria-hidden="true"></i> Contact Me
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         BOTTOM CTA
+    ============================================================ -->
+    <section class="pf-cta" aria-label="Call to action">
+      <div class="pf-cta__deco pf-cta__deco--l" aria-hidden="true"></div>
+      <div class="pf-cta__deco pf-cta__deco--r" aria-hidden="true"></div>
+      <div class="pf-cta__container" data-pf-animate>
+        <h2 class="pf-cta__heading">Let's Build Your Next Project Together</h2>
+        <p class="pf-cta__text">
+          Whether you're looking for a modern website, landing page, sales funnel,
+          business analysis, logo design, or digital support, I'm ready to help
+          bring your ideas to life.
+        </p>
+        <div class="pf-cta__buttons">
+          <a href="services.html" class="btn btn-primary">
+            <i class="ph ph-squares-four" aria-hidden="true"></i> Explore My Services
+          </a>
+          <a href="index.html#contact" class="btn pf-cta__btn-outline">
+            <i class="ph ph-envelope" aria-hidden="true"></i> Contact Me
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <div class="footer-logo" aria-hidden="true">AM</div>
+        <div>
+          <p class="footer-name">Aliyah Merit-Gold</p>
+          <p class="footer-tagline">Software Engineer | Data Scientist | Business Growth Analyst</p>
+        </div>
+      </div>
+      <div class="footer-socials" role="list" aria-label="Footer social media links">
+        <a href="#" class="footer-social-link" role="listitem" aria-label="GitHub">   <i class="ph ph-github-logo"   aria-hidden="true"></i></a>
+        <a href="#" class="footer-social-link" role="listitem" aria-label="LinkedIn"> <i class="ph ph-linkedin-logo" aria-hidden="true"></i></a>
+        <a href="#" class="footer-social-link" role="listitem" aria-label="Facebook"> <i class="ph ph-facebook-logo" aria-hidden="true"></i></a>
+        <a href="#" class="footer-social-link" role="listitem" aria-label="Twitter">  <i class="ph ph-x-logo"        aria-hidden="true"></i></a>
+        <a href="#" class="footer-social-link" role="listitem" aria-label="TikTok">   <i class="ph ph-tiktok-logo"   aria-hidden="true"></i></a>
+      </div>
+      <p class="footer-copy">
+        &copy; <span id="year"></span> Aliyah Merit-Gold · MeritGold Sales. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="portfolio.js"></script>
+</body>
+</html>
